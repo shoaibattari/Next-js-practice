@@ -5,19 +5,30 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-}
+  color: purple;
+font-size: xx-large;}
+
+.main  button{
+  display: flex;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  background-color: #0000001a;
+  padding: .90rem;
+  color: purple;
+font-size: 25px;}
+
+
 
 .description {
-  
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
-  font-size: 2.5rem;
-  text-transform: uppercase;
+  font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
-  font-family: var(font-mono);
+  font-family: var(--font-mono);
 }
 
 .description a {
